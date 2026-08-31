@@ -14,5 +14,10 @@ repositories {
 dependencies {
     minecraft "com.mojang:minecraft:26.1.2"
     mappings loom.officialMojangMappings()
-    modImplementation "net.fabricmc:fabric-loader:0.15.11"
-}  
+    modImplementation "net.fabricmc:fabric-loader:0.19.2"
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
